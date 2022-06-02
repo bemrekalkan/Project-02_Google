@@ -3,6 +3,8 @@
 
 ## Project-002 :Google Landing Page
 
+## GO TO NETLIFY ➡ https://02google.netlify.app/
+
 ## Description
 
 Project aims to create google landing page.
