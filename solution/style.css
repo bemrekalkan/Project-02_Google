@@ -1,149 +1,149 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-}
-nav {
-  margin: 1rem 1rem;
-}
-
-.left {
-  word-spacing: 0.7rem;
-}
-
-.left li {
-  display: inline-block;
-}
-
-.left a {
   text-decoration: none;
 }
 
-.right {
-  text-align: end;
-  word-spacing: 0.7rem;
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
-.right li {
+
+/*! HEADER */
+
+.header {
+  padding: 15px;
+  line-height: 36px;
+}
+
+.header__left {
+  float: left;
+}
+
+.header__right {
+  float: right;
+}
+
+/*? Liste elemanlarını yan yana gelmesini sağlıyoruz... */
+ul li {
   display: inline-block;
-  vertical-align: middle;
 }
-.right a {
-  text-decoration: none;
+
+ul li a {
+  color: black;
   padding: 0.5rem;
+  opacity: 0.8;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.header__right--appicon {
   vertical-align: middle;
 }
 
-.sign {
-  background-color: blueviolet;
-  border: 0;
-  border-radius: 0.4rem;
-  width: 5rem;
-  height: 2rem;
+.header__right--buton {
+  background-color: #4285f4;
   color: white;
+  border: none;
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 600;
 }
 
-.logo {
-  position: absolute;
-  top: 35%;
-  left: 40%;
+/*! özellikle butonlara box-shadow ile gölgelik verme olayını çokça yapacaz. */
+.header__right--buton:hover {
+  box-shadow: rgb(207, 202, 202) 2px 4px 5px;
+  cursor: pointer;
 }
 
-.bar {
-  position: absolute;
-  top: ;
+/*! MAIN */
+
+.main {
+  margin-top: 200px;
+  text-align: center;
 }
 
-/* 
-ul {
-    list-style-type: none;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    color: #000;
-    display: block;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size:14px;
-  }
-  li a:hover {
-    text-decoration: underline;
-  }
-  .grid{
-    height:23px;
-    position:relative;
-    bottom:4px;
-  }
-  .signbutton{
-    background-color: #4885ed;
-    color: #fff;
-    border:none;
-    border-radius:3px;
-    padding:7px 10px;
-    position:relative;
-    bottom:7px;
-    font-weight:bold;
-  }
-  .logo{
-    margin-top:200px;
-    margin-bottom:20px;
-  }
-  .bar{
-    margin:0 auto;
-    width:575px;
-    border-radius:30px;
-    border:1px solid #dcdcdc;
-  }
-  .bar:hover{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-  }
-  .bar:focus-within{
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline:none;
-  }
-  .searchbar{
-    height:45px;
-    border:none;
-    width:500px;
-    font-size:16px;
-    outline: none;
-    
-  }
-  .voice{
-    height:20px;
-    position:relative;
-    top:5px;
-    left:10px;
-  }
-  .buttons{
-    margin-top:30px;
-  }
-  .button{
-    background-color: #f5f5f5;
-    border:none;
-    color:#707070;
-    font-size:15px;
-    padding: 10px 20px;
-    margin:5px;
-    border-radius:4px;
-    outline:none;
-  }
-  .button:hover{
-    border: 1px solid #c8c8c8;
-    padding: 9px 19px;
-    color:#808080;
-  }
-  .button:focus{
-    border:1px solid #4885ed;
-    padding: 9px 19px;
-  }
-  
-   */
+.main__logo {
+  width: 272px;
+  height: 92px;
+}
+
+.main__search-bar {
+  width: 460px;
+  height: 45px;
+  margin: 20px auto;
+  border: 2px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.main__search-bar--input {
+  border: none;
+  outline: none;
+  width: 380px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.main__search-bar--magnifier {
+  width: 30px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.main__search-bar--mic {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.main__buttons--left,
+.main__buttons--right {
+  width: 146px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  margin: 20px 0;
+  padding: 0 16px;
+  height: 36px;
+}
+
+.main__buttons--left:hover,
+.main__buttons--right:hover {
+  border: 1px solid #d3d3d3;
+  box-shadow: rgb(207, 202, 202) 1px 1px 10px;
+  cursor: pointer;
+}
+
+.main__language a:hover {
+  text-decoration: underline;
+}
+
+/*! FOOTER */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%; /*! fixed verdiğimiz için widht'i 100% yapmamız lazım */
+}
+
+.footer__country {
+  font-size: 14px;
+  padding-left: 20px;
+  border-bottom: #5f6368;
+}
+
+.footer__bottom--left {
+  float: left;
+}
+
+.footer__bottom--right {
+  float: right;
+}
+
+.footer__bottom ul {
+  padding: 20px;
+}
