@@ -1,7 +1,7 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-## Project-002 :Google Landing Page (HC-02)
+## Project-002 :Google Landing Page
 
 ## Description
 
@@ -29,10 +29,6 @@ Project aims to create google landing page.
         |----style.css
         |----images
 ```
-
-## Expected Outcome
-
-![Project 002 Snapshot](Project_002_.png)
 
 ## Objective
 
@@ -65,9 +61,3 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 ## Notes
 
 - You can use HTML,and CSS to complete this project.
-
-## Resources
-
-- [Images](./images)
-
-<center> ⌛ Happy Coding  ✍ </center>
