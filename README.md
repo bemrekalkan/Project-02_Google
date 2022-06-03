@@ -5,7 +5,7 @@
 
 ## GO TO NETLIFY ➡ https://02google.netlify.app/
 
-<p><img align="right" alt="gif" src="./images/Project-02-Google.gif" width="500" height="320" /></p>
+<p>GIF<img align="right" alt="gif" src="./images/Project-02-Google.gif" width="500" height="320" /></p>
 
 ## Description
 
